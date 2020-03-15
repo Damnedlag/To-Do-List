@@ -1,0 +1,46 @@
+body {
+    display: flex;
+}
+
+#container {
+    width: 100%;
+    position: relative;
+}
+
+.form-wrapper {
+    width: 30%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+form div input {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+#projectDescription {
+    min-height: 20em;
+    height: fit-content;
+}
+
+#addnewProject {
+    position: absolute;
+}
+
+.invisibility {
+    display: none;
+}
+
+table {
+    margin: 1em;
+    border: solid 1px;
+}
+
+table th {
+    border: solid 0px 1px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Todo List</title>
+</head>
+<body>
+
+    <div id="container">
+        <button id="showAddProject">Add a new project here</button>
+        <!-- form to add new projects, visibility shuld be toggled -->
+        <div id="addNewProject">
+            <div class="form-wrapper">
+            <form>
+                <div>
+                <label for="projectTitle">Project title:</label>
+                <input type="text" id="projectTitle">
+                </div>
+                <div>
+                <label for="projectDescription">Description:</label>
+                <input type="text" id="projectDescription">
+            </div>
+            </form>
+            <button id="addProject">Save new project</button>
+        </div>
+    </div>
+    
+        <!-- table of projects -->
+        <div id="table">
+            <table id="tableOfProjects">
+                <tr>
+                    <th>Project Title</th>
+                    <th>Description</th>
+                    <th>List of Tasks</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
